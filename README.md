@@ -1,9 +1,9 @@
 # Laravel Custom SoftDelete
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/your-vendor/laravel-custom-softdelete.svg?style=flat-square)](https://packagist.org/packages/your-vendor/laravel-custom-softdelete)
-[![Total Downloads](https://img.shields.io/packagist/dt/your-vendor/laravel-custom-softdelete.svg?style=flat-square)](https://packagist.org/packages/your-vendor/laravel-custom-softdelete)
-[![License](https://img.shields.io/packagist/l/your-vendor/laravel-custom-softdelete.svg?style=flat-square)](LICENSE.md)
-[![PHP Version](https://img.shields.io/packagist/php-v/your-vendor/laravel-custom-softdelete.svg?style=flat-square)](https://packagist.org/packages/your-vendor/laravel-custom-softdelete)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rabnawazak1/laravel-custom-softdelete.svg?style=flat-square)](https://packagist.org/packages/rabnawazak1/laravel-custom-softdelete)
+[![Total Downloads](https://img.shields.io/packagist/dt/rabnawazak1/laravel-custom-softdelete.svg?style=flat-square)](https://packagist.org/packages/rabnawazak1/laravel-custom-softdelete)
+[![License](https://img.shields.io/packagist/l/rabnawazak1/laravel-custom-softdelete.svg?style=flat-square)](LICENSE.md)
+[![PHP Version](https://img.shields.io/packagist/php-v/rabnawazak1/laravel-custom-softdelete.svg?style=flat-square)](https://packagist.org/packages/rabnawazak1/laravel-custom-softdelete)
 
 A Laravel package that provides a custom soft delete implementation using three dedicated columns — `is_deleted`, `deleted_at`, and `deleted_by` — giving you full audit-trail awareness of *who* deleted a record, not just *when*.
 
@@ -40,7 +40,7 @@ Unlike Laravel's built-in `SoftDeletes` trait which relies solely on a nullable 
 Install the package via Composer:
 
 ```bash
-composer require your-vendor/laravel-custom-softdelete
+composer require rabnawazak1/laravel-custom-softdelete
 ```
 
 The package uses Laravel's auto-discovery. The service provider will be registered automatically — no manual setup needed.
@@ -89,7 +89,7 @@ Schema::table('your_table', function (Blueprint $table) {
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use YourVendor\CustomSoftDelete\Traits\CustomSoftDeletes;
+use Rabnawazak1\CustomSoftDelete\Traits\CustomSoftDeletes;
 
 class Patient extends Model
 {
@@ -258,13 +258,13 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for det
 
 ## Security
 
-If you discover any security-related issues, please email **your@email.com** instead of using the issue tracker.
+If you discover any security-related issues, please email **rabnawazabdulkhaliq@gmail.com** instead of using the issue tracker.
 
 ---
 
 ## Credits
 
-- **[Your Name](https://github.com/your-github)** — author and maintainer
+- **[Rabnawaz](https://github.com/rabnawazak1)** — author and maintainer
 - Inspired by the architecture of [Laravel's own SoftDeletes](https://laravel.com/docs/eloquent#soft-deleting) and [Spatie's Laravel Permission](https://github.com/spatie/laravel-permission) package
 
 ---
