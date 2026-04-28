@@ -1,6 +1,6 @@
 <?php
 
-namespace Rabnawazak1\CustomSoftDelete\Providers;
+namespace Rabnawazak1\CustomSoftDelete;
 
 use Illuminate\Support\ServiceProvider;
 use Rabnawazak1\CustomSoftDelete\Commands\AddSoftDeleteColumns;
