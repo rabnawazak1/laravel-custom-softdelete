@@ -31,7 +31,7 @@ Unlike Laravel's built-in `SoftDeletes` trait which relies solely on a nullable 
 | Dependency      | Version        |
 |-----------------|----------------|
 | PHP             | ^8.1           |
-| Laravel         | ^10.0 \| ^11.0 |
+| Laravel         | ^10.0 \| ^11.0 \| ^12.0 \| ^13.0 |
 
 ---
 

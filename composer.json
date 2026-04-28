@@ -3,7 +3,7 @@
   "description": "Custom soft delete with is_deleted, deleted_at, deleted_by",
   "type": "library",
   "require": {
-    "php": "^8.5",
+    "php": "^8.1",
     "laravel/framework": "^10.0|^11.0|^12.0|^13.0"
   },
   "autoload": {
